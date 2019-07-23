@@ -1,0 +1,46 @@
+[
+        {  
+            "Name":"Anabelle" ,
+            "Category":"Horror" 
+        }, 
+        { 
+            "Name":"Avengers" ,
+            "Category":"Sci-Fi" }, 
+        { 
+            "Name":"Starwars" , 
+            "Category":"Sci-Fi" 
+        },
+        {   
+            "Name":"Paranormal Activity" ,
+            "Category":"Horror" 
+        }, 
+        { 
+            "Name":"Toy Story" ,
+            "Category":"Childrens" }, 
+        { 
+            "Name":"Pretty Woman" , 
+            "Category":"Romance" 
+        },
+        {   
+            "Name":"Titanic" ,
+            "Category":"Romance" 
+        }, 
+        { 
+            "Name":"Psycho" ,
+            "Category":"Thriller" }, 
+        { 
+            "Name":"Sixth Sense" , 
+            "Category":"Thriller" 
+        },
+        {   
+            "Name":"Inception" ,
+            "Category":"Sci-Fi" 
+        }, 
+        { 
+            "Name":"Apocalypse Now" ,
+            "Category":"War" }, 
+        { 
+            "Name":"Platoon" , 
+            "Category":"War" 
+        }
+]
