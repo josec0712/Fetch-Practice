@@ -1,0 +1,8 @@
+@keyframes descriptionBox {
+    from  {display: none}
+    to  {display: block}
+  }
+
+.descriptionBox__active{
+    display: block;
+}

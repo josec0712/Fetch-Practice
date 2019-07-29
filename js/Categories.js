@@ -44,8 +44,29 @@ function _fillMoviesTable(Movies){
         var Item = document.createElement('li');
         Item.classList.add("listItem");
         Item.innerHTML = movie.Name;
+        Item.addEventListener('click', function(e){
+            clickMovie();
+            buildDescriptionBox(movie.Name, filteredArray);
+        });
         $DOM.tableMovies.appendChild(Item);
     });
+}
+function buildDescriptionBox(name, movies){
+    descriptionBox.innerHTML = "";
+    var MovieFound = _FindDescription(name, movies)
+    var descriptionBox = $DOM.descriptionBox;
+    descriptionBox.innerHTML = "<h1>" + MovieFound.Name + "<h1></h2>Sinopsis<h2><p>" + MovieFound.description + "</p>"
+}
+
+function clickMovie(e){
+    var targetElement = e.target;
+    targetElement.classList("descriptionBox__active");
+}
+
+function _FindDescription(name, movies){
+   return movies.find(movie => {
+        return movie.Name == name;
+   });
 }
 
 function _cleanList(){
@@ -56,7 +77,8 @@ function _cleanList(){
 function cacheDom() {
     $DOM = {
         elementCategory: document.getElementById("selectCategories"),
-        tableMovies: document.getElementById("MoviesList")
+        tableMovies: document.getElementById("MoviesList"),
+        descriptionBox: document.getElementById("descriptionBox")
     };
 }
 
