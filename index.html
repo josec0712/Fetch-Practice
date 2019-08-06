@@ -3,19 +3,27 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
   <title>select category</title>
-
-  <!-- <link rel="stylesheet" href="css/"> -->
-
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
-  <select name="Categories" id="selectCategories">
-      <option>Select option</option>
-  </select>  
-  <ul id="MoviesList"></ul>
-  <div id="descriptionBox" class="descriptionBox descriptionBox__inactive"></div>
-  <script src="js/Categories.js"></script>
+  <div class="movie-container">
+    <div class="movie-container__Item">
+        <select name="Categories" id="selectCategories" class="dropdown">
+            <option>Select option</option>
+        </select>
+        <ul id="MoviesList" class="list-group"></ul>
+    </div>
+    <div class="movie-container__Item">
+        <div id="descriptionBox" class="descriptionBox descriptionBox__inactive movie-container__Item__text-container">
+          <h1 id="Movie-name"></h1>
+          <h4>Sinopsis</h4>
+          <p id="text-sinopsis" class="descriptionBox__p"></p>
+        </div>
+    </div>
+  </div>  
+  <script src="js/core.js"></script>
 </body>
 </html>

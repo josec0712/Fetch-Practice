@@ -30,6 +30,7 @@ function _fillSelect(Movies){
     categories = categories.filter(unique);
     categories.forEach(category => {
         var option = document.createElement('option');
+        option.classList.add("dropdown-item");
         option.text = category;
         $DOM.elementCategory.appendChild(option);
     });
@@ -42,25 +43,25 @@ function _fillMoviesTable(Movies){
 
     filteredArray.forEach(movie => {
         var Item = document.createElement('li');
-        Item.classList.add("listItem");
+        Item.classList.add("list-group-item");
+        Item.classList.add("list-group-item-action");
         Item.innerHTML = movie.Name;
         Item.addEventListener('click', function(e){
-            clickMovie();
             buildDescriptionBox(movie.Name, filteredArray);
         });
         $DOM.tableMovies.appendChild(Item);
     });
 }
 function buildDescriptionBox(name, movies){
-    descriptionBox.innerHTML = "";
-    var MovieFound = _FindDescription(name, movies)
     var descriptionBox = $DOM.descriptionBox;
-    descriptionBox.innerHTML = "<h1>" + MovieFound.Name + "<h1></h2>Sinopsis<h2><p>" + MovieFound.description + "</p>"
-}
-
-function clickMovie(e){
-    var targetElement = e.target;
-    targetElement.classList("descriptionBox__active");
+    var tittle = document.getElementById("Movie-name");
+    var Sinopsis = document.getElementById("text-sinopsis");
+    //tittle.innerHTML = "";
+    //Sinopsis.innerHTML = "";
+    descriptionBox.classList.remove("descriptionBox__inactive");
+    var MovieFound = _FindDescription(name, movies)
+    tittle.innerHTML = MovieFound.Name;
+    Sinopsis.innerHTML = MovieFound.Description;
 }
 
 function _FindDescription(name, movies){

@@ -1,46 +1,63 @@
 [
         {  
             "Name":"Anabelle" ,
-            "Category":"Horror" 
+            "Category":"Horror",
+            "Description":"John Form encuentra el regalo perfecto para Mia, su esposa embarazada: una preciosa muñeca antigua llamada Annabelle. Una noche, una secta satánica les ataca brutalmente y provocan que un ente maligno se apodere de Annabelle."
+
         }, 
         { 
             "Name":"Avengers" ,
-            "Category":"Sci-Fi" }, 
+            "Category":"Sci-Fi",
+            "Description":"El director de la Agencia SHIELD decide reclutar a un equipo para salvar al mundo de un desastre casi seguro cuando un enemigo inesperado surge como una gran amenaza para la seguridad mundial."
+        }, 
         { 
             "Name":"Starwars" , 
-            "Category":"Sci-Fi" 
+            "Category":"Sci-Fi",
+            "Description":"La nave en la que viaja la princesa Leia es capturada por las tropas imperiales al mando del temible Darth Vader. Antes de ser atrapada, Leia consigue introducir un mensaje en su robot R2-D2, quien acompañado de su inseparable C-3PO logra escapar. Tras aterrizar en el planeta Tattooine son capturados y vendidos al joven Luke Skywalker, quien descubrirá el mensaje oculto que va destinado a Obi Wan Kenobi, maestro Jedi a quien Luke debe encontrar para salvar a la princesa."
         },
         {   
             "Name":"Paranormal Activity" ,
-            "Category":"Horror" 
+            "Category":"Horror",
+            "Description":"Una joven pareja se muda a su primera casa nueva pero son perturbados por lo que parece ser una presencia sobrenatural que se vuelve más activa durante la noche."
         }, 
         { 
             "Name":"Toy Story" ,
-            "Category":"Childrens" }, 
+            "Category":"Childrens" ,
+            "Description":"Cuando su dueño Andy se prepara para ir a la universidad, el vaquero Woody, el astronauta Buzz y el resto de sus amigos juguetes comienzan a preocuparse por su incierto futuro. Todos acaban en una guardería donde comenzarán una serie de trepidantes y divertidas aventuras."
+        }, 
         { 
             "Name":"Pretty Woman" , 
-            "Category":"Romance" 
+            "Category":"Romance" ,
+            "Description":"Un elegante empresario hace el esmerado intento de adaptar a una mujer a las reglas de una sofisticada empresa de negocios."
         },
         {   
             "Name":"Titanic" ,
-            "Category":"Romance" 
+            "Category":"Romance" ,
+            "Description":"Una joven de la alta sociedad abandona a su arrogante pretendiente por un artista humilde en el trasatlántico que se hundió durante su viaje inaugural."
         }, 
         { 
             "Name":"Psycho" ,
-            "Category":"Thriller" }, 
+            "Category":"Thriller" ,
+            "Description":"La secretaria de Phoenix, Marion Crane (Janet Leigh), se fuga después de robar $40,000 dólares de su empleador con el fin de huir con su novio, Sam Loomis (John Gavin), es vencida por el agotamiento durante una fuerte tormenta. Viajando por carreteras secundarias para evitar a la policía, ella se detiene una noche en el viejo motel Bates y conoce al cortés, pero nervioso propietario Norman Bates (Anthony Perkins), joven interesado en la taxidermia y con una relación difícil con su madre."
+        }, 
         { 
             "Name":"Sixth Sense" , 
-            "Category":"Thriller" 
+            "Category":"Thriller" ,
+            "Description":"Malcolm Crowe es un psicólogo infantil que vive obsesionado por el recuerdo de un joven al que fue incapaz de ayudar. Cuando conoce a Cole, un aterrorizado y confuso niño de ocho años, se le presenta la oportunidad de redimirse haciendo todo lo posible por ayudarlo. Sin embargo, el doctor no está preparado para descubrir la terrible verdad sobre el chico: recibe visitas de espíritus atormentados que lo asustan."
         },
         {   
             "Name":"Inception" ,
-            "Category":"Sci-Fi" 
+            "Category":"Sci-Fi" ,
+            "Description":"Dom Cobb es un ladrón con una extraña habilidad para entrar a los sueños de la gente y robarles los secretos de sus subconscientes. Su habilidad lo ha vuelto muy popular en el mundo del espionaje corporativo, pero ha tenido un gran costo en la gente que ama. Cobb obtiene la oportunidad de redimirse cuando recibe una tarea imposible: plantar una idea en la mente de una persona. Si tiene éxito, será el crimen perfecto, pero un enemigo se anticipa a sus movimientos."
         }, 
         { 
             "Name":"Apocalypse Now" ,
-            "Category":"War" }, 
+            "Category":"War", 
+            "Description":"Controvertida historia sobre la misión de un capitán del ejército de encontrar y matar a un oficial renegado en Camboya."
+        }, 
         { 
             "Name":"Platoon" , 
-            "Category":"War" 
+            "Category":"War" ,
+            "Description":"Las experiencias personales de O. Stone inspiraron esta historia sobre un joven soldado en la frontera de Camboya."
         }
 ]
