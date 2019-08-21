@@ -1,0 +1,4 @@
+<div class="movie-container__Item">
+    <img src="{0}" class="img-poster">
+    <h1 class="movie-name">{1}</h1>
+</div>

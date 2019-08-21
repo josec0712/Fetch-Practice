@@ -3,27 +3,44 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>select category</title>
+  <title>YouMovie</title>
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
-  <div class="movie-container">
-    <div class="movie-container__Item">
-        <select name="Categories" id="selectCategories" class="dropdown">
-            <option>Select option</option>
-        </select>
-        <ul id="MoviesList" class="list-group"></ul>
-    </div>
-    <div class="movie-container__Item">
-        <div id="descriptionBox" class="descriptionBox descriptionBox__inactive movie-container__Item__text-container">
-          <h1 id="Movie-name"></h1>
-          <h4>Sinopsis</h4>
-          <p id="text-sinopsis" class="descriptionBox__p"></p>
+    <div class="jumbotron">
+        <h1 class="display-4">YouMovie</h1>
+        <p class="lead">Find your favorite movie and see what the critics say</p>
+      </div>
+      <div class="container">
+        <div class="news-container">
+          <h1>Trending movies</h1>
+          <div class="trending-container" id="movie-container"></div>
+          </div>
+        <div class="rating-container">
+          <h2>Top 5 movies</h2>
+          <table id="top-movies">
+            <thead>
+              <th>
+                <td>Name</td>
+                <td>Rating</td>
+              </th>
+              <tbody></tbody>
+            </thead>
+          </table>
+          <h2>Top 5 series</h2>
+          <table id="top-series">
+            <thead>
+              <th>
+                <td>Name</td>
+                <td>Rating</td>
+              </th>
+              <tbody></tbody>
+            </thead>
+          </table>
         </div>
-    </div>
-  </div>  
-  <script src="js/core.js"></script>
+      </div>
+  <script src="js/API_Request.js"></script>
 </body>
 </html>
